@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    background-color: bisque;
+    height: 80px;
+    line-height: 80px;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.container{
+    height: auto;
+    width: 700px;
+    margin: 0 auto;
+    text-align: left;
+}
+.content{
+    height: auto;
+    width: 500px;
+    float: right;
+}
+.content p{
+    text-align: justify;
+}
+.nav{
+    float: left;
+    height: 500px;
+    width: 190px;
+    background-color: sandybrown;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav a{
+    text-decoration: none;
+}
+.footer{
+    clear: both;
+    width: 100%;
+    background-color: sandybrown;
+}
