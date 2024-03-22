@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Objects</title>
-    <script src="main.js"></script>
     <style>
-        body{
-            background-color: black;
-        }
+      body {
+        background-color: black;
+      }
+      #one {
+        color: aliceblue;
+      }
     </style>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <p id="one">Hello</p>
+    <button onclick="change()">Change</button>
+    <script>
+      const para = document.getElementById("one");
+      function change() {
+        para.textContent = "Bye";
+      }
+    </script>
+  </body>
 </html>
